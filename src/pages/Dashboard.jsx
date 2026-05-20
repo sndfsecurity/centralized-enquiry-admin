@@ -19,7 +19,7 @@ function Dashboard() {
                 localStorage.getItem("token");
 
             const response = await axios.get(
-                "http://localhost:8080/api/enquiry/my-enquiries",
+            "https://centralized-enquiry-backend-production.up.railway.app/api/enquiries",
                 {
                     headers: {
                         Authorization: `Bearer ${token}`
