@@ -404,7 +404,6 @@ const handleExportExcel = async () => {
 
                     paddingTop: "10px",
                     paddingBottom: "10px",
-
                     marginBottom: "20px"
                 }}>
 
