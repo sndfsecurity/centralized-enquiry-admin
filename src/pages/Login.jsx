@@ -10,8 +10,10 @@ function Login() {
 
         try {
 
+    //"https://centralized-enquiry-backend-production.up.railway.app/api/auth/login",
+
             const response = await axios.post(
-                "https://centralized-enquiry-backend-production.up.railway.app/api/auth/login",
+                 "https://centralized-enquiry-backend-production.up.railway.app/api/auth/login",
                 {
                     username,
                     password
@@ -74,8 +76,7 @@ function Login() {
                             color: "#0f172a",
                             fontWeight: "700",
                             letterSpacing: "1px"
-                        }}
-                    >
+                        }}>
                         Admin Dashboard
                     </h1>
 
@@ -85,8 +86,7 @@ function Login() {
                             color: "#842204",
                             fontSize: "18px",
                             letterSpacing: "1px"
-                        }}
-                    >
+                        }}>
                         Centralized Enquiry Management
                     </p>
 
@@ -95,8 +95,7 @@ function Login() {
                 <div
                     style={{
                         marginBottom: "20px"
-                    }}
-                >
+                    }}>
 
                     <label
                         style={{
@@ -106,8 +105,7 @@ function Login() {
                             fontWeight: "600",
                             fontSize: "18px",
                             letterSpacing: "1px"
-                        }}
-                    >
+                        }}>
                         Username
                     </label>
 
