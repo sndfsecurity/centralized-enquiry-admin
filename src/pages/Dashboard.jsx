@@ -538,7 +538,7 @@ const handleExportExcel = async () => {
             </option>
 
             <option value="detectiveinvestigation.in">
-                Investigation
+                Pune Detective
             </option>
 
             <option value="sndfpunesecurity.in">
@@ -549,9 +549,10 @@ const handleExportExcel = async () => {
                 Mumbai Detective
             </option>
 
-            <option value="TRAINING">
-                Training
+             <option value="puneowlsecurity.in/">
+                OWL Security
             </option>
+
 
         </select>
 
