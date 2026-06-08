@@ -549,7 +549,7 @@ const handleExportExcel = async () => {
                 Mumbai Detective
             </option>
 
-             <option value="puneowlsecurity.in/">
+             <option value="puneowlsecurity.in">
                 OWL Security
             </option>
 
